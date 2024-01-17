@@ -22,7 +22,7 @@ public class Main {
         //  Map<String,String> map = Map<String,String> originalMap;
 
         Map<String, String> newMap = new HashMap<>();
-        public static void combineKeys (Map<String, String>){
+        public static void combineKeys (Map<String, String> map){
         // Map<String, String> newMap = new HashMap<>();
         for (String key : map.keySet()) {
             if (map.containsKey("a")) {
